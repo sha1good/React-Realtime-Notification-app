@@ -1,0 +1,71 @@
+.card {
+  height: 280px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.userImg {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.postImg {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.interaction {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  position: relative;
+}
+
+.cardIcon {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.infoIcon {
+  position: absolute;
+  right: 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.simpleForm {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.wrapper {
+  display: flex;
+  z-index: 999;
+  gap: 20px;
+  padding: 5px;
+}
+
+.cardInput {
+  width: 80%;
+}
+
+.cardButton {
+  width: 60px;
+  height: 50%;
+  cursor: pointer;
+  border-radius: 5px;
+}
